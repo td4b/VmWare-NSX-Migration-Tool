@@ -3,7 +3,7 @@
 This script is designed to automatically tag systems from the Provided CSV file and then generate NSX Baseline security policies to allow 
 baseline connectivity over the network.
 
-The idea is to allow machines to talk innitially by tagging the systems, the application traffic can then be analyzed using an
+The idea is to allow machines to talk initially by tagging the systems, the application traffic can then be analyzed using an
 IDS/IPS to lock down the traffic via a Service-Instance 3rd party security service in NSX such as a Palo Alto firewall.
 
 Moreover more analytical tools such as vRNI (vRealize Network Insight) can be used to characterize flow and lock down applications in the 
