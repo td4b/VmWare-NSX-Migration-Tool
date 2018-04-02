@@ -1,8 +1,8 @@
 AppId,ApplicationName,Name,OS,Environment,Tier
-243,CustomerCare,server01,Linux,DEV,Web
-243,CustomerCare,server02,Linux,DEV,Web
-243,CustomerCare,server03,Linux,DEV,Web
-243,CustomerCare,server04,Linux,DEV,Web
+243,CustomerCare,server01,Linux,Dev,Web
+243,CustomerCare,server02,Linux,Dev,Web
+243,CustomerCare,server03,Linux,Dev,Web
+243,CustomerCare,server04,Linux,Dev,Web
 387,GIS,server05,Windows,Prd,App
 387,GIS,server06,Windows,Prd,App
 387,GIS,server07,Windows,Prd,App
