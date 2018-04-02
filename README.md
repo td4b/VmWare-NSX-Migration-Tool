@@ -35,3 +35,7 @@ pip install -r requires.txt
 ~~~
 ansible-vault create login.yaml
 ~~~
+4) Run the script!
+~~~
+python migrate.py
+~~~
