@@ -1,0 +1,4 @@
+requests
+xmltodict
+ansible_vault
+pyvmomi
