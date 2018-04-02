@@ -27,8 +27,11 @@ from a Zero Day perspective if we were Building out the application.
 
 **Installation:**
 1) Export the script to the location you want to run it.
-2) pip install -r requires.txt
-3) Lastly encrypt the login.yaml file # Use provided specs in "login_decrypted.yaml"
+2) Install the Dependency requirements with pip.
+~~~
+pip install -r requires.txt
+~~~
+3) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml"
 ~~~
 ansible-vault create login.yaml
 ~~~
