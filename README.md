@@ -28,4 +28,4 @@ from a Zero Day perspective if we were Building out the application.
 **Installation:**
 1) Export the script to the location you want to run it.
 2) pip install -r requires.txt
-3) "ansible-vault create login.yaml" # Use provided specs in "login_decrypted.yaml"
+3) ~~~ansible-vault create login.yaml~~~ # Use provided specs in "login_decrypted.yaml"
