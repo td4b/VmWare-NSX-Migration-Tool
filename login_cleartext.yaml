@@ -1,0 +1,8 @@
+NSX:
+  hostname: 'https://192.168.1.174'
+  username: 'admin'
+  password: 'password'
+vCenter:
+  hostname: '192.168.1.146'
+  username: 'administrator@vsphere.local'
+  password: 'password'
