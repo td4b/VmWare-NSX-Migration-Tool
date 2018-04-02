@@ -18,6 +18,7 @@ from a Zero Day perspective if we were Building out the application.
 
 * Python 3.4+
   * ansible_vault
+  * getpass
   * re
   * requests
   * xmltodict
