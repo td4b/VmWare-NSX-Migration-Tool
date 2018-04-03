@@ -14,8 +14,6 @@ from a Zero Day perspective if we were Building out the application.
 
 **Required Software**
 
-* Ansible (for initially encrypting the Vault file).
-
 * Python 3.4+
   * ansible_vault
   * getpass
@@ -28,20 +26,20 @@ from a Zero Day perspective if we were Building out the application.
 **Installation:**
 1) It's best practice to set up a virtualenv, package management becomes a lot easyier. Just place the script in the same directory as the bin file generated from the virtualenv script.
 ~~~
-root: apt-get install virtualenv
-root: virtualenv project --python=python3.6
-root: cd project
-root: source bin/activate
+admin# apt-get install virtualenv
+admin# virtualenv project --python=python3.6
+admin# cd project
+admin# source bin/activate
 ~~~
 2) Install the Dependency requirements with pip3.
 ~~~
-(project)root: pip3 install -r requires.txt
+(project)admin# pip3 install -r requires.txt
 ~~~
 3) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml"
 ~~~
-ansible-vault create login.yaml
+(project)admin# ansible-vault create login.yaml
 ~~~
 4) Run the script!
 ~~~
-(project)root: python migrate.py
+(project)admin# python migrate.py
 ~~~
