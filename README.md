@@ -14,7 +14,7 @@ from a Zero Day perspective if we were Building out the application.
 
 **Required Software**
 
-* Ansible
+* Ansible (for initially encrypting the Vault file).
 
 * Python 3.4+
   * ansible_vault
@@ -26,10 +26,16 @@ from a Zero Day perspective if we were Building out the application.
   * pyvmomi
 
 **Installation:**
-1) Export the script to the location you want to run it.
-2) Install the Dependency requirements with pip.
+1) It's best practice to set up a virtualenv, package management becomes a lot easyier. Just place the script in the same directory as the bin file generated from the virtualenv script.
 ~~~
-pip install -r requires.txt
+root: apt-get install virtualenv
+root: virtualenv project --python=python3.6
+root: cd project
+root: source bin/activate
+~~~
+2) Install the Dependency requirements with pip3.
+~~~
+(project)root: pip3 install -r requires.txt
 ~~~
 3) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml"
 ~~~
@@ -37,5 +43,5 @@ ansible-vault create login.yaml
 ~~~
 4) Run the script!
 ~~~
-python migrate.py
+(project)root: python migrate.py
 ~~~
