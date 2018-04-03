@@ -31,11 +31,11 @@ admin# virtualenv project --python=python3.6
 admin# cd project
 admin# source bin/activate
 ~~~
-2) Install the Dependency requirements with pip3.
+2) Install the Dependency requirements with pip.
 ~~~
-(project)admin# pip3 install -r requires.txt
+(project)admin# pip install -r requires.txt
 ~~~
-3) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml"
+3) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml" replacing the appropriate values.
 ~~~
 (project)admin# ansible-vault create login.yaml
 ~~~
