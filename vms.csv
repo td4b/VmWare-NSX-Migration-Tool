@@ -10,9 +10,9 @@ AppId,ApplicationName,Name,OS,Environment,Tier
 387,GIS,server09,Windows,Prd,App
 987,iControl,server10,Linux,Prd,App
 987,iControl,server11,Linux,Prd,App
-623,Neptune,server12,WebLogic,Dev,Web
-623,Neptune,server13,WebLogic,Dev,Web
-623,Neptune,server14,WebLogic,Dev,Web
+623,Neptune,server12,Linux,Dev,Web
+623,Neptune,server13,Linux,Dev,Web
+623,Neptune,server14,Linux,Dev,Web
 823,SecureSystems,server15,Linux,Prd,App
 823,SecureSystems,server16,Linux,Prd,App
 135,PowerGeneration,server17,Windows,Prd,Web
