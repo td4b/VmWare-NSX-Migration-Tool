@@ -34,7 +34,7 @@ admin> source bin/activate
 ~~~
 2) Ensure proper folder structure as follows after using virtualenv when cloning the GitHub Repository.
 ~~~
-project --
+project--
  bin--
  lib--
  requires.txt
