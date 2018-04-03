@@ -39,6 +39,9 @@ admin> source bin/activate
 3) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml" replacing the appropriate values.
 ~~~
 (project)admin> ansible-vault create login.yaml
+New Vault password: ********
+Confirm New Vault password: ********
+(project)admin>
 ~~~
 4) Run the script!
 ~~~
