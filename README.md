@@ -34,12 +34,14 @@ admin> source bin/activate
 ~~~
 2) Install the Dependency requirements with pip after cloning the repository and moving the files into the Project Directory.
 Structure as follows:
+```
 project --
  bin--
  lib--
  requires.txt
  vms.csv
  migrate.py
+```
 ~~~
 (project)admin> pip install -r requires.txt
 ~~~
