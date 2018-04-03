@@ -10,7 +10,7 @@ Moreover more analytical tools such as vRNI (vRealize Network Insight) can be us
 Datacenter environment.
 
 This tools is intended to be used for Systems that are being migrated into a virtual environment as this sort of thing should be locked down 
-from a Day Zero perspective if we were Building out the application.
+from a day zero perspective if we were Building out the application.
 
 **Required Software - Complete Setup Instructions Below.**
 
