@@ -32,8 +32,7 @@ admin> cd project
 admin> source bin/activate
 (project)admin>
 ~~~
-2) Install the Dependency requirements with pip after cloning the repository and moving the files into the Project Directory.
-Structure as follows:
+2) Ensure proper folder structure as follows after using virtualenv when cloning the GitHub Repository.
 ~~~
 project --
  bin--
@@ -42,17 +41,18 @@ project --
  vms.csv
  migrate.py
 ~~~
+3) Now install the depencency requirements.
 ~~~
 (project)admin> pip install -r requires.txt
 ~~~
-3) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml" replacing the appropriate values.
+4) Lastly encrypt the login.yaml file. Note: Use provided specs in "login_decrypted.yaml" replacing the appropriate values.
 ~~~
 (project)admin> ansible-vault create login.yaml
 New Vault password: ********
 Confirm New Vault password: ********
 (project)admin>
 ~~~
-4) Run the script!
+5) Run the script!
 ~~~
 (project)admin> python migrate.py
 ~~~
