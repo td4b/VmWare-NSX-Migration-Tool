@@ -30,6 +30,7 @@ admin> apt-get install virtualenv
 admin> virtualenv project --python=python3.6
 admin> cd project
 admin> source bin/activate
+(project)admin>
 ~~~
 2) Install the Dependency requirements with pip.
 ~~~
