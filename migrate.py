@@ -311,9 +311,9 @@ def main(x):
     if x == 1:
         for i in tags:
             tagid, description = gettag(i)
-            ampsid = i.split("-")[1]
-            ASG = "SG-" + ampsid
-            AppSection = "AppID-" + ampsid
+            appid = i.split("-")[1]
+            ASG = "SG-" + appid
+            AppSection = "AppID-" + appid
             
             createsection(AppSection)
             conf, headers, code = getfwconfig(AppSection)
