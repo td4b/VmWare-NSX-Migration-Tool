@@ -52,7 +52,8 @@ New Vault password: ********
 Confirm New Vault password: ********
 (project)admin>
 ~~~
-5) Run the script!
+5) Update the vms.csv file in the proper formatting for all you're workloads.
+6) Run the script!
 ~~~
 (project)admin> python migrate.py
 ~~~
