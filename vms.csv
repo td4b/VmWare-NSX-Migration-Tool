@@ -21,10 +21,10 @@ AppId,ApplicationName,Name,OS,Environment,Tier
 283,RestFULLAPIs,server20,Windows,Prd,Web
 283,RestFULLAPIs,server21,Windows,Prd,Web
 283,RestFULLAPIs,server22,Windows,Prd,Web
-298,VirtualDesktops,server23,Linux,Dev,App
-298,VirtualDesktops,server24,Linux,Dev,App
-298,VirtualDesktops,server25,Linux,Dev,App
-298,VirtualDesktops,server26,Linux,Dev,App
+298,VirtualDesktops,server23,Windows,Dev,App
+298,VirtualDesktops,server24,Windows,Dev,App
+298,VirtualDesktops,server25,Windows,Dev,App
+298,VirtualDesktops,server26,Windows,Dev,App
 1521,DataManagement,server27,Linux,Prd,DB
 1521,DataManagement,server28,Linux,Prd,DB
 1521,DataManagement,server29,Linux,Prd,DB
