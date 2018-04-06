@@ -9,8 +9,7 @@ IDS/IPS to lock down the traffic via a Service-Instance 3rd party security servi
 Moreover more analytical tools such as vRNI (vRealize Network Insight) can be used to characterize flow and lock down applications in the 
 Datacenter environment.
 
-This tools is intended to be used for Systems that are being migrated into a virtual environment as this sort of thing should be locked down 
-from a day zero perspective if we were Building out the application.
+This tools is intended to be used for Systems that are being migrated into a virtual environment.
 
 **Required Software - Complete Setup Instructions Below.**
 
